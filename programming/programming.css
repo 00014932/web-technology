@@ -1,0 +1,233 @@
+/* programming */
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background-color: rgb(207, 206, 206);
+    height: 90vh;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    margin-left: -2px;
+}
+
+.consulting-services {
+    text-align: center;
+    width: 33%;
+    height: 30vh;
+    margin: 0px auto 60px;
+    justify-content: center;
+}
+
+.consulting-services h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.1;
+    padding: 0;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+
+.consulting-services p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: -20px;
+}
+
+
+/* wrapper-programming */
+
+.wrapper-programming {
+    background-image: url(../image-folder/programming.bg.jpg);
+    background-size: cover;
+    width: 99.7%;
+    background-repeat: no-repeat;
+    height: 56vh;
+}
+
+.programming-section {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.programming {
+    padding: 30px 30px 40px;
+    margin: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgb(180, 180, 180);
+    margin-top: -110px;
+}
+
+.programming i {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.programming h4 {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 20px 0 0;
+}
+
+.programming p {
+    margin: 30px 0 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.programming button {
+    border-width: 2px;
+    border-style: solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+    margin: 20px 0 0;
+    border-color: #454545;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.programming button:hover {
+    background-color: rgb(248, 245, 245);
+}
+
+.footer {
+    width: 98.6%;
+    height: 50px;
+    background-color: #333333;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p a {
+    color: rgb(6, 179, 164);
+}
+
+.footer p {
+    color: grey;
+}
+
+@media (max-width:576px) {
+    body {
+        overflow-y: scroll;
+        margin-left: -1px;
+    }
+    .consulting-services {
+        width: 98%;
+        margin-top: -30px;
+        height: 15vh;
+        margin-left: -2px;
+    }
+    .consulting-services h1 {
+        font-size: 2.5rem;
+    }
+    .programming-section {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .wrapper-programming {
+        background-image: url(../image-folder/programming.bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150vh;
+        width: 90%;
+    }
+    .programming {
+        width: 90%;
+        margin: 0 auto 10px;
+        justify-content: center;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    body {
+        overflow-y: scroll;
+        margin-left: -1px;
+    }
+    .consulting-services {
+        width: 98%;
+        margin-top: -30px;
+        height: 15vh;
+        margin-left: -2px;
+    }
+    .consulting-services h1 {
+        font-size: 2.5rem;
+    }
+    .programming-section {
+        flex-direction: column;
+    }
+    .wrapper-programming {
+        background-image: url(../image-folder/programming.bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150vh;
+        width: 99.7%;
+    }
+    .programming {
+        max-width: 300px;
+        width: 90%;
+        margin: 0 auto 10px;
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    body {
+        overflow-y: scroll;
+        margin-left: -1px;
+    }
+    .consulting-services {
+        width: 98%;
+        margin-top: -30px;
+        height: 15vh;
+        margin-left: -2px;
+    }
+    .consulting-services h1 {
+        font-size: 2.5rem;
+    }
+    .programming-section {
+        flex-wrap: wrap;
+    }
+    .wrapper-programming {
+        background-image: url(../image-folder/programming.bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150vh;
+        width: 99.7%;
+    }
+    .programming {
+        max-width: 300px;
+        width: 90%;
+        margin: 0 auto 10px;
+        justify-content: center;
+    }
+}
+
+@media (min-width:993px) and (max-width:1300px) {
+    body {
+        width: 100%;
+        margin-left: -2px;
+    }
+    .consulting-services {
+        width: 98%;
+        margin-top: -30px;
+        height: 15vh;
+        margin-left: -2px;
+    }
+    .consulting-services h1 {
+        font-size: 2.5rem;
+    }
+    .wrapper-programming {
+        width: 99.7%;
+    }
+    .programming-section {
+        margin-top: 120px;
+        width: 90%;
+    }
+}

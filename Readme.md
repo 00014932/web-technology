@@ -1,0 +1,1 @@
+this is website is created to fulfill a task given from web technolagy, all in all this website mainly focus on online courses where students can get their favarite course to increase ability in specific areas. It is vital that there are 5 fully responsive pages included to make user satisfied
