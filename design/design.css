@@ -321,6 +321,33 @@
     box-shadow: 5px 5px 15px 5px #000000;
 }
 
+.hiddenContent {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    overflow-y: scroll;
+    height: 250px;
+    z-index: 90;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.4s linear;
+    clip-path: circle(0);
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.767);
+    position: fixed;
+    top: 0;
+    transition: 0.6s linear;
+    left: 0;
+    clip-path: circle(0);
+    height: 100%;
+    width: 100%;
+    z-index: 89;
+}
+
 @media (max-width:576px) {
     body {
         overflow-x: hidden;
